@@ -29,19 +29,19 @@ ul {
 
 
 .main-text {
-    color:rgb(6, 49, 7);
+    color:rgb(5, 61, 6);
  
 }
 
-#groundnut-soup {
+.groundnut-soup {
     color: rgb(138, 115, 38);
 }
-#okro-soup {
+.okro-soup {
     color:rgb(158, 156, 18);
 }
 
-#jollof-rice {
-    color:rgb(255, 102, 0)
+.jollof-rice {
+    color:rgb(255, 102, 0);
 }
 
 .main-text, 
