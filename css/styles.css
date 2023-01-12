@@ -1,0 +1,59 @@
+body {
+    background-color: #e8f1f1;
+}
+
+
+
+a {
+    color: black;
+}
+
+
+p {
+    color: #3f3fa8;
+}
+
+
+h3 {
+    color: black;
+}
+
+ol{
+    color: rgb(177, 52, 52);
+}
+
+ul {
+    color:rgb(46, 3, 3);
+}
+
+
+
+.main-text {
+    color:rgb(6, 49, 7);
+ 
+}
+
+#groundnut-soup {
+    color: rgb(138, 115, 38);
+}
+#okro-soup {
+    color:rgb(158, 156, 18);
+}
+
+#jollof-rice {
+    color:rgb(255, 102, 0)
+}
+
+.main-text, 
+.groundnut-soup, 
+.okro-soup, 
+.jollof-rice {
+    font-size: 65px;
+    font-family: 'Pacifico';
+
+}
+
+.home-button {
+    width: 50px;
+    height: 50px;
+}
