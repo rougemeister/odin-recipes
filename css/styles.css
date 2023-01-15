@@ -1,60 +1,68 @@
-body {
-    background-color: #e8f1f1;
-    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+#main-page {
+    margin-left: 20rem;
+    margin-right: 20rem;
+   
 }
 
-
+img {
+    height: 45rem;
+    width: auto;
+    margin: 0 3rem 0 3rem;
+    border-radius: 10px;
+}
 
 a {
-    color: black;
+    text-decoration: none;
+    height: 2rem;
+    width: 12rem;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.description-text {
+    margin: 0 15rem 0 15rem;
+    padding: 0 2.3rem 0 2.3rem;
+    font-size: 3rem;
+    background-color: aqua;
+    border-radius: 5px;
+}
+#recipes {
+    margin: 0 18.2rem 0 18.2rem;
 }
 
 
-p {
-    color: #3f3fa8;
+.recipe.first,
+.recipe.second {
+    padding-left: 42.5px;
+    padding-top: 8px;
+    background-color: rgb(227, 237, 241);
+    border-left: 4px solid rgb(75, 165, 243);
+    border-right: 4px solid rgb(75, 165, 243);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+}
+.recipe.second{
+    border-left: 4px solid rgb(255, 160, 160);
+    border-right: 4px solid rgb(255, 160, 160);
 }
 
-
-h3 {
-    color: black;
+.recipe.third {
+    padding-left: 27.5px;
+    padding-top: 8px;
+    background-color: rgb(227, 237, 241);
+    border-left: 4px solid rgb(248, 250, 119);
+    border-right: 4px solid rgb(248, 250, 119);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+    margin-top: 10px;
 }
-
-ol{
-    color: rgb(177, 52, 52);
-}
-
-ul {
-    color:rgb(46, 3, 3);
-}
-
-
 
 .main-text {
-    color:rgb(5, 61, 6);
- 
-}
-
-.groundnut-soup {
-    color: rgb(138, 115, 38);
-}
-.okro-soup {
-    color:rgb(158, 156, 18);
-}
-
-.jollof-rice {
-    color:rgb(255, 102, 0);
-}
-
-.main-text, 
-.groundnut-soup, 
-.okro-soup, 
-.jollof-rice {
-    font-size: 65px;
-    font-family: 'Pacifico';
-
-}
-
-.home-button {
-    width: 50px;
-    height: 50px;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    margin: 0 8rem 0 8rem;
+    font-size: 7rem;
+    padding: 0 6rem 0 6rem;
+    border-top: 15px solid aqua;
+    box-sizing: border-box;
 }
