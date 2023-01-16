@@ -26,7 +26,9 @@ a {
     border-radius: 5px;
 }
 #recipes {
-    margin: 0 18.2rem 0 18.2rem;
+    display: flex;
+    margin: 5px 18rem 0 18rem;
+    
 }
 
 
@@ -43,6 +45,8 @@ a {
 .recipe.second{
     border-left: 4px solid rgb(255, 160, 160);
     border-right: 4px solid rgb(255, 160, 160);
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .recipe.third {
@@ -53,7 +57,7 @@ a {
     border-right: 4px solid rgb(248, 250, 119);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 1000;
-    margin-top: 10px;
+    
 }
 
 .main-text {
