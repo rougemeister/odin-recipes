@@ -54,6 +54,25 @@
 #list-container {
     padding-top: 15px;
 }
+.jollof:hover {
+    border-left: 5px solid rgb(155, 102, 4);
+    border-right: 5px solid rgb(155, 102, 4);
+    background-color: orange;
+    color:  rgb(253, 242, 221);
+}
+
+.okro:hover {
+    border-left: 5px solid  rgb(1, 43, 1);
+    border-right: 5px solid rgb(1, 43, 1);
+    background-color: darkgreen;
+    color: rgb(184, 248, 184);
+}
+.groundnut:hover {
+    border-left: 5px solid rgb(73, 4, 4);
+    border-right: 5px solid rgb(73, 4, 4);
+    background-color:  brown;
+    color: rgb(240, 224, 224);
+}
 
 .jollof-container img,
 .okro-container img,
