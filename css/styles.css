@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+.main-wrapper {
+    display: flex;
+}
 .content-wrapper {
     padding: 5px;
+    flex: 1;
+    margin: 0 auto;
 }
 .list-container {
     display: flex;
@@ -31,6 +36,7 @@
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    flex: 1;
     
 }
 .jollof {
@@ -50,6 +56,7 @@
     border-right: 5px solid brown;
     background-color: rgb(240, 224, 224);
     color: rgb(73, 4, 4);
+    
 }
 #list-container {
     padding-top: 15px;
@@ -105,8 +112,9 @@
     height: 40px;
     padding: 10px;
 
+
 }
-h1 {
+#main-text{
     margin: 0 auto;
     text-align: center;
    background-color: aliceblue;
@@ -114,6 +122,5 @@ h1 {
    font-size: 75px;
    font-family: 'Pacifico';
    width: 1200px;
-   
 
 }
