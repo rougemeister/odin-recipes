@@ -55,13 +55,8 @@
 
 .okro-soup {
     text-align: center;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px 400px 10px 400px;
-    border-radius: 5px;
-    border-left: 5px solid green;
-    border-right: 5px solid green;
-    background-color: rgb(197, 252, 197);
+    font-size: 70px;
+    font-family: 'Pacifico';
     color: rgb(6, 43, 6);
 }
 
