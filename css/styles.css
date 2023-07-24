@@ -1,126 +1,71 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    color: rgb(17, 16, 16);
+
 }
 
-.main-wrapper {
-    display: flex;
+#main {
+    width: 900px;
+    margin: 20px auto 0;
+
 }
-.content-wrapper {
+
+#header {
+    display: flex;
+    align-items: center;
+    background-color: #F2EEE1;
     padding: 5px;
-    flex: 1;
-    margin: 0 auto;
-}
-.list-container {
-    display: flex;
-    height: 450px;
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.image-container  {
-    margin: 20px;
-}
-
-.jollof,
-.okro,
-.groundnut {
-    width: 350px;
-   
-    text-align: center;
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    font-weight: 900;
-    padding: 50px;
     border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    flex: 1;
-    
-}
-.jollof {
-    border-left: 5px solid orange;
-    border-right: 5px solid orange;
-    background-color: rgb(253, 242, 221);
-    color: rgb(155, 102, 4)
-}
-.okro {
-    border-left: 5px solid darkgreen;
-    border-right: 5px solid darkgreen;
-    background-color: rgb(184, 248, 184);
-    color: rgb(1, 43, 1);
-}
-.groundnut {
-    border-left: 5px solid brown;
-    border-right: 5px solid brown;
-    background-color: rgb(240, 224, 224);
-    color: rgb(73, 4, 4);
-    
-}
-#list-container {
-    padding-top: 15px;
-}
-.jollof:hover {
-    border-left: 5px solid rgb(155, 102, 4);
-    border-right: 5px solid rgb(155, 102, 4);
-    background-color: orange;
-    color:  rgb(253, 242, 221);
 }
 
-.okro:hover {
-    border-left: 5px solid  rgb(1, 43, 1);
-    border-right: 5px solid rgb(1, 43, 1);
-    background-color: darkgreen;
-    color: rgb(184, 248, 184);
+#header img {
+    width: 45px;
+    height: auto;
+    padding-left: 10px;
+    
 }
-.groundnut:hover {
-    border-left: 5px solid rgb(73, 4, 4);
-    border-right: 5px solid rgb(73, 4, 4);
-    background-color:  brown;
-    color: rgb(240, 224, 224);
+.links {
+    margin-left: auto;
+    
 }
 
-.jollof-container img,
-.okro-container img,
-.groundnut-container img {
-    width: 133.5px;
-    height: 133.5px;
-    border-radius: 5px;
-    margin-right: 5px;
+.link {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    font-weight: 600;
+    margin: 0 5px;
+    padding: 5px 8px;
 }
-.jollof-container,
-.okro-container,
-.groundnut-container {
-    display: flex;
+
+.link:hover {
+    border-bottom: 2px solid rgb(20, 18, 18);
+    background-color: #ffdbda;
+}
+
+.hero-img {
+    background-image: url("../images/food.jpg");
+    background-size: cover;
+    height: 400px;
     margin-top: 5px;
 }
 
-#main-image {
-    max-width: 625px;
-    margin-right: 0;
-    border-radius: 10px;
+.title-wrapper {
+    height: 100px;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 30px;
 }
 
-.description-text {
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(16, 16, 53);
-    color: aliceblue;
-    width: 600px;
-    height: 40px;
-    padding: 10px;
-
-
+.title {
+    font-size: large;
 }
-#main-text{
-    margin: 0 auto;
-    text-align: center;
-   background-color: aliceblue;
-   color: rgb(16, 16, 53);
-   font-size: 75px;
-   font-family: 'Pacifico';
-   width: 1200px;
-
+.line {
+    width: 300px;
+    height: 3px;
+    background-color: #E39033;
+    margin: 30px auto;
 }
