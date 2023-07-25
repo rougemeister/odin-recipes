@@ -2,29 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(17, 16, 16);
+    color: #495877;
 
 }
-
-#main {
-    width: 900px;
-    margin: 20px auto 0;
-
+body {
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 #header {
     display: flex;
     align-items: center;
-    background-color: #F2EEE1;
+    background-color:#f3f3f3;
     padding: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 #header img {
-    width: 45px;
+    width: 75px;
     height: auto;
-    padding-left: 10px;
+    margin-left: 20px;
     
 }
 .links {
@@ -37,35 +35,50 @@
     font-family: 'Inter', sans-serif;
     font-size: small;
     font-weight: 600;
-    margin: 0 5px;
-    padding: 5px 8px;
+    margin: 0 10px 0 0;
+    padding: 10px 0px;
 }
 
 .link:hover {
-    border-bottom: 2px solid rgb(20, 18, 18);
-    background-color: #ffdbda;
+    border-bottom: 2px solid #E99926;
+   
 }
 
 .hero-img {
     background-image: url("../images/food.jpg");
     background-size: cover;
-    height: 400px;
-    margin-top: 5px;
+    height: 600px;
+
 }
 
 .title-wrapper {
     height: 100px;
-    background-color: blanchedalmond;
+    background-color: #16171C;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
+    font-weight: 600;
+    text-shadow: 0 0 1px #16171C;
 }
 
 .title {
-    font-size: large;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 33px;
+    padding-bottom: 5px;
+    color: white;
+   
 }
+
+
+
+.title-text {
+   font-size: 18px;
+   color: white;
+}
+
 .line {
     width: 300px;
     height: 3px;
-    background-color: #E39033;
+    background-color: #07641b;
     margin: 30px auto;
+    
 }
